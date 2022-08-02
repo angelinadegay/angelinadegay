@@ -1,0 +1,550 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ 
+  
+  font-family: "Roboto", sans-serif; 
+  font-size: 20px;  
+  line-height: 1.5em;
+  background-color:#eef8fb ;
+  color: white; 
+}
+
+header {
+  height:375px;
+  padding-top: 30px;   
+  padding-left: 30%;
+  padding-right: 30%;
+  
+  
+    
+   
+ 
+}
+header::after{
+  content: "";
+  background-image: url("women.jpg"); 
+  opacity: 0.5; 
+  top: 30px;
+  left: 0;
+  height: 420px;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here areh1 {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #43d6b9ff;
+  line-height: 60px;
+  letter-spacing: 12px;
+   
+  margin: 2px;
+} just some visual styles. 🖌 */
+
+.container {
+  
+  line-height: 60px;
+  letter-spacing: 12px;
+   
+  margin: 2px;
+  
+  text-align: center;
+  height: 100vh
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+main { 
+  padding-top:0;     
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+ 
+  margin-left: 0;
+  margin-right: 0;          
+  
+}
+*/
+/* STYLE TEXT */
+
+
+h2 {
+  font-family:  "Garamond", serif;
+  font-style: italic;
+  font-size: 35px;
+  text-align: center;
+  color: #3D8DAE;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  font-weight: 200;
+  
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#mus1
+{
+  padding-top: 70px;
+  padding-bottom: 80px;
+  padding-left: 300px;
+  height:400px;
+}
+h8{
+  
+  font-family:"Geneva, Verdana", sans-serif;
+  text-align: center;
+  font-size: 45px;
+  color: #ff7300;
+   font-weight: 600;
+ position: absolute;
+  margin-top:520px;
+ left:580px;
+  padding-bottom: 20px;
+
+}
+ul.iss {
+  list-style-type: none;        
+  overflow: hidden;
+  margin:0;
+  padding-top:15px;
+  border-style: solid;
+  border-color:#ff7300;
+}
+
+li.i1 {
+  text-align: center;          
+  padding: 5px;
+    margin-left: 150px;
+  line-height: 2cm;
+   padding-right:260px;
+}
+
+li.i1  a {   
+  font-size: 30px;
+  color: #025ebb;
+   margin-left:3em;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-LEFT: 20px;
+  padding-right:16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+li.i1 a:hover {
+  background-color:#DF8453;;
+  color: #17494D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+  font-family: "Garamond", serif;
+  font-size: 25px;
+  text-align: center;
+  color: #0D38D3;
+  line-height: 1.3em;
+  
+  padding-bottom: 15px;
+}
+
+.cont1{
+  position: relative;
+}
+
+h5 {
+   font-family: "Geneva, Verdana", sans-serif;
+  text-align: left;
+  font-size: 55px;
+  color: #ffffff;
+ 
+ position: absolute;
+  top: 100px;
+  left: 16px;
+}
+h6 {
+   font-family:"Geneva, Verdana", sans-serif;
+  text-align: left;
+  font-size: 30px;
+  
+  color: #fafafa;
+  text-shadow: 1px 1px #38699f ;
+ 
+ position: absolute;
+  top: 170px;
+  left: 16px;
+}
+h7 {
+   font-family:"Geneva, Verdana", sans-serif;
+  text-align: left;
+  font-size: 20px;
+  font-weight:bold;
+  color: #fafafa;
+  text-shadow: 1px 1px #38699f ;
+ 
+ position: absolute;
+  top: 350px;
+  left: 16px;
+}
+
+
+#show_bg {
+  background-image:linear-gradient(
+      rgba(26, 59, 135, 0.75),
+      rgba(26, 59, 135, 0.75)
+    ), url('assets/gender.jpg');
+    width: 100%;
+    height: 650px;
+  
+  margin-top:0;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+  background-size: cover;
+    color: white;
+  
+}
+.number{
+  font-family:"Geneva, Verdana", sans-serif;
+  text-align: left;
+  font-size: 40px;
+  font-weight:bold;
+  color: #f57c19;
+  text-shadow: 1px 1px #38699f ;
+ 
+ position: absolute;
+  top: 450px;
+  left: 180px;
+}
+.words1{
+  font-family:"Geneva, Verdana", sans-serif;
+  text-align: left;
+  font-size: 30px;
+  font-weight:bold;
+  color: #f57c19;
+  text-shadow: 1px 1px #38699f ;
+ 
+ position: absolute;
+  top: 498px;
+  left: 30px;
+}
+.number1{
+  font-family:"Geneva, Verdana", sans-serif;
+  text-align: left;
+  font-size: 40px;
+  font-weight:bold;
+  color: #f57c19;
+  text-shadow: 1px 1px #38699f ;
+ 
+ position: absolute;
+  top: 450px;
+  left:970px;
+}
+.words2{
+  font-family:"Geneva, Verdana", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+  color: #f57c19;
+  text-shadow: 1px 1px #38699f ;
+ 
+ position: absolute;
+  top: 498px;
+  left: 560px;
+}
+
+
+
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+a {
+  color: #43d6b9ff;
+  text-decoration: none;
+}
+  
+
+/* STYLE NAV BAR */
+ul.nav-bar {
+  list-style-type: none;        
+  overflow: hidden;
+   margin: 0;
+    padding: 0;
+  background-color:#ACCFCB;;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+li.nav-item {
+  display: inline-block;     
+  text-align: center;          
+  padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.nav-item a {   
+  font-size: 15px;
+  color: #f6f7f8;
+   margin-left:19em;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-LEFT: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color:#3D8DAE;
+}
+
+li.nav-item a:hover {
+  background-color:#DF8453;;
+  color: #17494D;
+}
+li.nav-item a.active{
+   background-color:#DBAD4A;
+  color: #17494D;
+}
+
+
+
+
+/* STYLE IMAGES - Includes Make it responsive Key Feature */
+/* img {
+
+  display: block;      
+  width: 90%;          
+  height: auto;        
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-style: solid;
+  border-color: #fdd946;
+  border-width: 8px;
+  border-radius: 5px;
+}
+*/
+
+
+
+
+
+
+/* STYLE BUTTONS */
+#factBtn {
+  background:#DF8453;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+
+  color: #ffffff;
+  font-size: 1em;
+}
+#factBtn:hover{
+  background:#ACCFCB;
+}
+
+#scriptBtn {
+  background: #0D38D3;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: #ffffff;
+  font-size: 1em;
+}
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: #c6e4f1;;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  
+  font-size: 1.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #3D8DAE;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #e07410ff;
+
+}
+
+/* STYLE PERSONALIZE IT KEY FEATURE  */
+
+.scriptQues {
+  background: #DF8453;
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2.9em;
+  color: #3D8DAE;;
+}
+
+.scriptItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#scriptReturned {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  color: #FFFFFF;
+}
+
+/* STYLE MISC */
+.resources {
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.resources li {
+  margin-bottom: 15px;
+}
+
+/* MEDIA QUERIES  - Includes Make it responsive Key Feature */
+@media screen and (max-width: 850px) { /* Breakpoint 1 */
+  .flex-container {
+    flex-wrap: wrap; 
+  }
+
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main { 
+  margin-left: 5%;
+  margin-right: 5%;          
+  }
+  
+  .genFact, #fact {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+
+  #fact {
+  font-size: 1.5em;
+  }
+
+}
+
