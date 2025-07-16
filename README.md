@@ -49,7 +49,4 @@ A financial assistant aimed at empowering women through personalized AI insights
 🔗 [LinkedIn](https://www.linkedin.com/in/angelinadegay/)  
 📎 [GitHub](https://github.com/angelinadegay)
 
----
 
-✨ **Fun Fact**  
-I'm endlessly curious about how machines understand and adapt to the world around them. Whether it's debugging a model, exploring embodied AI, or brainstorming with my WICS team, you'll find me deep in thought—with a matcha latte in hand and a Lo-Fi playlist in the background.
