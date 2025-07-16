@@ -12,7 +12,7 @@ Next year, I’ll be joining a **research program** at Rutgers focused on applyi
 **What I Built**: A local-first AI itinerary generator using open-source LLMs and retrieval-augmented generation for semantic search over custom travel guides.  
 **Tech Stack**: Python, FastAPI, FAISS, PyMuPDF, Ollama (Mistral, Phi-3), GGUF  
 **Result**: Fully offline, extensible app that performs real-time document retrieval and itinerary generation.  
-📎 [See the project](https://github.com/angelinadegay/tourist-guide-ai)
+
 
 ---
 
@@ -30,17 +30,17 @@ Next year, I’ll be joining a **research program** at Rutgers focused on applyi
 🔹 **Spotify Song Chatbot**  
 An interactive chatbot using Spotify’s API to recommend music based on user moods.  
 *Tech Stack*: Python, Spotipy, OAuth2, Flask, Heroku  
-📎 [Project Repo](https://github.com/angelinadegay/spotify-song-chatbot)
+
 
 🔹 **AI-Powered PDF Extractor**  
 Automates information extraction from massive technical documents using GPT models.  
 *Tech Stack*: Python, GPT-3.5, AsyncIO, Regex, AutoCAD  
-📎 [Project Repo](https://github.com/angelinadegay/pdf-gpt-extractor)
+
 
 🔹 **Aurelle (Hackathon Winner)**  
 A financial assistant aimed at empowering women through personalized AI insights.  
 *Tech Stack*: Flask, OpenAI API, HTML/CSS/JS  
-📎 [Project Repo](https://github.com/angelinadegay/aurelle)
+
 
 ---
 
